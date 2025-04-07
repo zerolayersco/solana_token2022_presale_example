@@ -2,7 +2,7 @@ use anchor_lang::prelude::*;
 use anchor_lang::system_program;
 use anchor_spl::token::{self, Token};
 
-declare_id!("DFxPTfgjpQ7DGbPGhfyW1YQSEUbB2uhUMMLSz76NLKef");
+declare_id!("your_program_pubkey_in_base58");
 
 #[program]
 pub mod presale {
