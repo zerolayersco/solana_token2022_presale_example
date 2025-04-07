@@ -3,7 +3,7 @@ use anchor_lang::solana_program::account_info::AccountInfo;
 use anchor_spl::token_interface::{self, InitializeMint2, MintTo, Burn, TransferChecked, Approve};
 use anchor_spl::associated_token::{self, Create};
 
-declare_id!("8KjKiwnMWhZubjC71QW8echPxv5HiUcBn1u2LChDPDkE");
+declare_id!("your_program_pubkey_in_base58");
 
 #[program]
 pub mod token {
